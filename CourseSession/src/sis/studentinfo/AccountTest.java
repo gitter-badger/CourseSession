@@ -17,8 +17,6 @@ public class AccountTest {
 		assertEquals(new BigDecimal("5.300"), new BigDecimal("5.000").add(new BigDecimal("0.3")));
 	}
 	
-	
-	
 	@Test
 	public void testTransactionAverage() {
 		Account account = new Account();
